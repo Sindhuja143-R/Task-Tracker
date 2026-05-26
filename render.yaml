@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: task-tracker
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: FLASK_ENV
+        value: production
+    disk:
+      name: task-data
+      mountPath: /opt/render/project/data
+      sizeGB: 1

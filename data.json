@@ -1,0 +1,28 @@
+{
+    "tasks_data": {
+        "2025-08-10": [
+            {
+                "name": "a",
+                "done": true
+            },
+            {
+                "name": "b",
+                "done": false
+            },
+            {
+                "name": "c",
+                "done": false
+            },
+            {
+                "name": "d",
+                "done": false
+            }
+        ]
+    },
+    "monthly_stats": {
+        "2025-08-10": [
+            1,
+            4
+        ]
+    }
+}
