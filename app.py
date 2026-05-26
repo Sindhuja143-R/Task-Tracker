@@ -1,10 +1,13 @@
 from flask import Flask, render_template, request, redirect, url_for
 from datetime import date
+import os
+os.environ['MPLBACKEND'] = 'Agg'
+import matplotlib
+matplotlib.use('Agg', force=True)
 import matplotlib.pyplot as plt
 import io
 import base64
 import json
-import os
 
 app = Flask(__name__)
 
