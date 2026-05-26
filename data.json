@@ -1,28 +1,39 @@
 {
-    "tasks_data": {
-        "2025-08-10": [
-            {
-                "name": "a",
-                "done": true
-            },
-            {
-                "name": "b",
-                "done": false
-            },
-            {
-                "name": "c",
-                "done": false
-            },
-            {
-                "name": "d",
-                "done": false
-            }
-        ]
-    },
-    "monthly_stats": {
-        "2025-08-10": [
-            1,
-            4
-        ]
-    }
+  "tasks_data": {
+    "2025-08-10": [
+      {
+        "name": "a",
+        "done": true
+      },
+      {
+        "name": "b",
+        "done": false
+      },
+      {
+        "name": "c",
+        "done": false
+      },
+      {
+        "name": "d",
+        "done": false
+      }
+    ],
+    "2026-05-26": [
+      {
+        "name": "zsfz",
+        "done": true
+      },
+      {
+        "name": "sef",
+        "done": true
+      }
+    ]
+  },
+  "monthly_stats": {
+    "2025-08-10": [
+      1,
+      4
+    ]
+  },
+  "metadata": {}
 }
